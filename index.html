@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Programación I | Parcial 1 | Sanchez Ordoñez, Margoth Valeria</title>
+
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <div class="web">
+    <header>
+      <h1>Programación I | Parcial 1 | Sanchez, Margoth Valeria</h1>
+    </header>
+
+    <main>
+
+
+      <h2 class="titulo">Mis discos (DinoDiscos)</h2>
+      <p class="texto">Al hacer clic en "Cargar nuevo disco", ingresa el nombre del disco, el autor y un código único
+        (1-999). Luego, añade pistas y asegúrate de que los nombres no estén vacíos y las duraciones estén entre 0 y
+        7200 segundos. Al presionar "Mostrar discos", verás toda la información cargada.</p>
+
+      <div class="button-container">
+        <button onclick="cargarNuevoDisco();" aria-label="Cargar un nuevo disco">Cargar nuevo disco</button>
+        <button onclick="mostrarDiscos();" aria-label="Mostrar discos">Mostrar discos</button>
+        <button onclick="mostrarDiscoCodigo();" aria-label="Buscar disco por código">Buscar disco por código</button>
+      </div>
+      <div class="container-respuesta">
+
+        <ul id="respuesta">
+
+        </ul>
+      </div>
+      <div class="container-img">
+        <img src="img/dinodiscos.png" alt="logo DinoDiscos">
+      </div>
+    </main>
+
+    <footer>
+      <ul>
+        <li>Profesor Corbalan Cristian Ariel</li>
+        <li>
+          <a href="mailto:cristian.corbalan@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre"
+            target="_blank">cristian.corbalan@davinci.edu.ar</a>
+        </li>
+        <li>Programación 1</li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="parcial.js"></script>
+</body>
+
+</html>
